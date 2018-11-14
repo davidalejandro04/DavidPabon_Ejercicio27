@@ -1,5 +1,5 @@
 make
-
+module load anaconda/python3
 module load rocks-openmpi-_ib
 echo "Parte 1 a):"
 mpiexec -v -n 4 hello

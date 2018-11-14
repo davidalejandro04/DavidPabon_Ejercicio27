@@ -1,0 +1,28 @@
+make: *** No targets specified and no makefile found.  Stop.
+ModuleCmd_Load.c(208):ERROR:105: Unable to locate a modulefile for 'rocks-openmpi-_ib'
+--------------------------------------------------------------------------
+mpiexec was unable to launch the specified application as it could not find an executable:
+
+Executable: hello
+Node: node-23.local
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec was unable to launch the specified application as it could not find an executable:
+
+Executable: mpisend_recv
+Node: node-23.local
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./sample
+Node: node-23.local
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+/var/spool/torque/mom_priv/jobs/488713.clustermaster.uniandes.edu.co.SC: line 11: python3: command not found
