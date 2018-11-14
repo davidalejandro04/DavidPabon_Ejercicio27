@@ -1,13 +1,12 @@
-EXECS=hello mpisend_recv
-MPICC?=mpicc
+exes=hello mpisend_recv
 
-all: ${EXECS}
+all: ${exes}
 
 mpisend_recv: mpisend_recv.c
-	${MPICC} -o mpisend_recv mpisend_recv.c
+	mpicc -o mpisend_recv mpisend_recv.c
 
 hello: hello.c
-	${MPICC} -o hello hello.c
+	mpicc -o hello hello.c
 
 clean:
-	rm -f ${EXECS}
+	rm -f ${exes}
